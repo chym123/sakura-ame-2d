@@ -1,0 +1,36 @@
+{
+  "name": "sakura-ame-2d",
+  "version": "1.0.0",
+  "description": "sakura ame canvas 2d",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --info=false --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chym123/sakura-ame-2d.git"
+  },
+  "keywords": [
+    "sakura",
+    "canvas"
+  ],
+  "author": "chym123",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chym123/sakura-ame-2d/issues"
+  },
+  "homepage": "https://github.com/chym123/sakura-ame-2d#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "chalk": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpackbar": "^4.0.0"
+  },
+  "dependencies": {}
+}
