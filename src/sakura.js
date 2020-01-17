@@ -16,12 +16,12 @@ module.exports = class Sakura {
     const { ctx, getPosition, quadraticCurveTo, bezierCurveTo } = this;
 
     const pStart = getPosition(97, 273);
-    const pControlA1 = getPosition(49, 273);
-    const pControlA2 = getPosition(-43, 136);
-    const pEndA = getPosition(50, 37);
+    const pControlA1 = getPosition(97, 256);
+    const pControlA2 = getPosition(-45, 161);
+    const pEndA = getPosition(53, 38);
 
-    const pControlB1 = getPosition(57, 28);
-    const pControlB2 = getPosition(65, 26);
+    const pControlB1 = getPosition(63, 26);
+    const pControlB2 = getPosition(65, 25);
     const pEndB = getPosition(76, 15);
 
     const pControlC1 = getPosition(80, 11);
@@ -32,14 +32,14 @@ module.exports = class Sakura {
     const pEndD = getPosition(97, 35);
 
     const pControlE1 = getPosition(100, 35);
-    const pControlE2 = getPosition(98, 22);
-    const pEndE = getPosition(106, 12);
+    const pControlE2 = getPosition(100, 29);
+    const pEndE = getPosition(105, 16);
 
     const pControlF = getPosition(109, 9);
     const pEndF = getPosition(111, 13);
 
-    const pControlG1 = getPosition(118, 27);
-    const pControlG2 = getPosition(153, 40);
+    const pControlG1 = getPosition(137, 44);
+    const pControlG2 = getPosition(145, 35);
     const pEndG = getPosition(166, 64);
 
     const pControlH1 = getPosition(221, 166);
